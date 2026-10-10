@@ -1,0 +1,16 @@
+PETUNJUK UPLOAD WEBSITE KE CPANEL HOSTING (SMK & SMP RASMAN MULYA)
+===================================================================
+
+Isi paket ini:
+1. index.html          -> Halaman utama website (React SPA)
+2. assets/             -> Folder berisi file Javascript & CSS
+3. .htaccess           -> Konfigurasi routing Apache (mencegah error 404 saat refresh)
+4. htaccess.txt        -> Salinan dari .htaccess (jika Windows menyembunyikan file titik)
+
+CARA MEMASANG DI CPANEL:
+1. Buka cPanel Hosting Anda -> klik 'File Manager'.
+2. Buka folder 'public_html'.
+3. Jika sudah ada file index lama, Anda dapat menghapus atau memindahkannya ke folder backup.
+4. Upload semua file (index.html, folder assets, dan .htaccess) langsung ke dalam public_html.
+   CATATAN: Pastikan index.html berada langsung di dalam public_html, bukan di dalam subfolder baru.
+5. Selesai! Buka domain website Anda di browser.
